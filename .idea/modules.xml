@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BankAccountChallenge.iml" filepath="$PROJECT_DIR$/BankAccountChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectOrientedExercises.iml" filepath="$PROJECT_DIR$/ObjectOrientedExercises.iml" />
     </modules>
   </component>
 </project>
