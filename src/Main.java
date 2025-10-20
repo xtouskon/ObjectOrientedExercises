@@ -1,13 +1,47 @@
 public class Main {
 
     public static void main(String[] args) {
-         Wall wall = new Wall(5,4);
-         System.out.println("area= " + wall.getArea());
+        Carpet carpet = new Carpet(3.5);
+        Floor floor = new Floor(2.75, 4.0);
+        Calculator calculator = new Calculator(floor, carpet);
+        System.out.println("total= " + calculator.getTotalCost());
+        carpet = new Carpet(1.5);
+        floor = new Floor(5.4, 4.5);
+        calculator = new Calculator(floor, carpet);
+        System.out.println("total= " + calculator.getTotalCost());
+    }
 
-         wall.setHeight(-1.5);
-         System.out.println("width= " + wall.getWidth());
-         System.out.println("height= " + wall.getHeight());
-         System.out.println("area= " + wall.getArea());
+
+
+    //POINT
+
+//    public static void main(String[] args) {
+//        Point point1 = new Point();
+//        Point point2 = new Point(2,4);
+//
+//        point1.setX(8);
+//        point1.setY(6);
+//
+//
+//        System.out.println(point1.distance(point2));
+//        System.out.println(point1.distance());
+//        System.out.println(point1.distance(6,3));
+//
+//    }
+
+
+
+// Wall
+
+//    public static void main(String[] args) {
+//         Wall wall = new Wall(5,4);
+//         System.out.println("area= " + wall.getArea());
+//
+//         wall.setHeight(-1.5);
+//         System.out.println("width= " + wall.getWidth());
+//         System.out.println("height= " + wall.getHeight());
+//         System.out.println("area= " + wall.getArea());
+
 
 
 
@@ -88,4 +122,4 @@ public class Main {
 //        bobsAccount.withdrawFunds(200);
 //
     }
-}
+
